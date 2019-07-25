@@ -260,7 +260,7 @@ function updatePointsTable() {
     tableData += '<th> x </th>';
     tableData += '<th> y </th>';
     tableData += '<th> z </th>';
-    tableData += '<th> w </th>';
+    tableData += '<th> h </th>';
     tableData += '<th> Edit </th>';
     tableData += '<th> Delete </th>';
     tableData += '</tr>';
