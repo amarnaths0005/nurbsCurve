@@ -296,7 +296,7 @@ function editRow(i) {
 
     highlightSelectedRow();
 
-    let legend = "Point " + i1 + " Coordinates";
+    let legend = "Point " + i1 + " Homogeneous Coordinates";
     document.getElementById("pointLegend").innerHTML = legend;
 
     pointxRange.value = nurbsControlPoints[i].x;
