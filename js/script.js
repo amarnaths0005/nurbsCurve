@@ -131,48 +131,48 @@ function init() {
         controlx = parseFloat(pointxRange.value);
         document.getElementById('opPointx').textContent = controlx.toFixed(3);
         nurbsControlPoints[selectedRow].x = controlx;
-        highlightSelectedRow();
         updatePointsTable();
         renderLineAndNurbsCurve();
         showCurrentPoint(nurbsControlPoints[selectedRow].x,
             nurbsControlPoints[selectedRow].y, nurbsControlPoints[selectedRow].z);
         handleUValue();
+        highlightSelectedRow();
     }, false);
 
     pointyRange.addEventListener('input', function () {
         controly = parseFloat(pointyRange.value);
         document.getElementById('opPointy').textContent = controly.toFixed(3);
         nurbsControlPoints[selectedRow].y = controly;
-        highlightSelectedRow();
         updatePointsTable();
         renderLineAndNurbsCurve();
         showCurrentPoint(nurbsControlPoints[selectedRow].x,
             nurbsControlPoints[selectedRow].y, nurbsControlPoints[selectedRow].z);
         handleUValue();
+        highlightSelectedRow();
     }, false);
 
     pointzRange.addEventListener('input', function () {
         controlz = parseFloat(pointzRange.value);
         document.getElementById('opPointz').textContent = controlz.toFixed(3);
         nurbsControlPoints[selectedRow].z = controlz;
-        highlightSelectedRow();
         updatePointsTable();
         renderLineAndNurbsCurve();
         showCurrentPoint(nurbsControlPoints[selectedRow].x,
             nurbsControlPoints[selectedRow].y, nurbsControlPoints[selectedRow].z);
         handleUValue();
+        highlightSelectedRow();
     }, false);
 
     pointwRange.addEventListener('input', function () {
         controlw = parseFloat(pointwRange.value);
         document.getElementById('opPointw').textContent = controlw.toFixed(3);
         nurbsControlPoints[selectedRow].w = controlw;
-        highlightSelectedRow();
         updatePointsTable();
         renderLineAndNurbsCurve();
         showCurrentPoint(nurbsControlPoints[selectedRow].x,
             nurbsControlPoints[selectedRow].y, nurbsControlPoints[selectedRow].z);
         handleUValue();
+        highlightSelectedRow();
     }, false);
 
     document.getElementById('knot').addEventListener('click', function() {
